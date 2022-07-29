@@ -8,4 +8,9 @@ export const addProduct = async (
   return result;
 };
 
+export const getAllProducts = async () : Promise<ProductsInterface> => {
+  const result = await productModel.getAllProducts();
+  return result;
+};
+
 export default addProduct;
