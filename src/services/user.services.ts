@@ -1,6 +1,6 @@
 import * as userModel from '../models/user.model';
 import { AddUserInterface } from '../interfaces/user.interface';
-import TokenInterface from '../interfaces/token.interface';
+import { TokenInterface } from '../interfaces/token.interface';
 import createToken from '../utils/jwt';
 
 export const addNewUser = async (
